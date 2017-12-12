@@ -1,5 +1,4 @@
-# VPS配置
-The procedure of setting up a vps server with google BBR algorithm
+# Set up a VPS with google BBR
 主要介绍搭建虚拟专用服务器(vps)，以及加入谷歌BBR优化算法实现TCP加速
 
 （以下配置方法及流程均来源于网络，仅作整理，该方法仅用于学习和交流）
@@ -11,6 +10,7 @@ The procedure of setting up a vps server with google BBR algorithm
 
 
 ****
+
 ## 选择一个VPS
 常用vps包括
 Vultr：https://www.vultr.com/
