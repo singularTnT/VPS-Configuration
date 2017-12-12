@@ -36,15 +36,32 @@
 
 1. 下载安装putty客户端：<br>
 http://www.putty.org/
+
 2. 部署新的服务器<br>
-	<1>加号图标部署新的服务器<br>
+	<1> 加号图标部署新的服务器<br>
 ![deploy new server](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/deploy_new_server.png)
-	<2>server location选最近的<br>
+	<2> server location选最近的<br>
 ![server location](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_location.png)
-	<3>server type随意，centos较为稳定
-![server type](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_size.png)
-	<4>server size按自己需求和土豪程度选，一般5刀的够4个人左右用了
+	<3> server type随意，centos较为稳定<br>
+![server type](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_type.png)
+	<4> server size按自己需求选(土豪请随意)，一般5刀的够4个人左右用了<br>
 ![server size](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_size.png)
-	<5>余下的不折腾的按默认就行，点击右下角蓝色框"Deploy Now"
+	<5> 余下的不折腾的按默认就行，点击右下角蓝色框"Deploy Now"<br>
 ![deploy now](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_deploynow.png)
+
+3. 登陆服务器<br>
+	<1> 回到主界面，点击最左侧的“Servers”会显示你当前部署的服务器<br>
+![server](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_tokyo_server.png)
+	<2> 点击你所部署的服务器，会显示当前的“Server Information”，注意以下的“IP Address”和“Password”<br>
+![server_info](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_ip_mm.png)
+	<3> 登陆服务器，打开putty，在红框的位置输入上一步的“IP Address”，其余默认即可，点击右下角“Open”<br>
+![putty](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/putty.png)
+	<4> 在控制台界面输入<br>
+	```
+	login as: 输入`root`
+	password: 输入之前部署服务器获得的Pasword(在putty命令行节目中，右键一下表示粘贴)，回车
+	```
+	<br>
+![putty_login](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/putty_login.png)
+
 
