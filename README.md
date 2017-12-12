@@ -37,14 +37,14 @@
 #### 1. 下载安装putty客户端：<br>
 http://www.putty.org/
 
-##### 2. 部署新的服务器<br>
-<1> 加号图标部署新的服务器<br>
+#### 2. 部署新的服务器<br>
+<1> 点击加号部署新的服务器<br>
 ![deploy new server](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/deploy_new_server.png)<br>
 <2> server location选最近的<br>
 ![server location](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_location.png)<br>
-<3> server type随意，centos较为稳定<br>
+<3> server type随意，CentOS较为稳定<br>
 ![server type](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_type.png)<br>
-<4> server size按自己需求选(土豪请随意)，一般5刀的够4台设备左右用了<br>
+<4> server size按自己需求选(土豪请随意)，一般5刀的够4台左右设备用了<br>
 ![server size](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_size.png)<br>
 <5> 余下的不折腾的按默认就行，点击右下角蓝色框"Deploy Now"<br>
 ![deploy now](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_deploynow.png)<br>
@@ -86,3 +86,19 @@ chmod +x shadowsocks-go.sh
 <2> 打开ss客户端，如下图输入之前红色框中对应的信息，点击确认，并且在windows界面右下角图标右键，勾选“启动系统代理”选项<br>
 ![ss](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/ss.png)<br>
 <3> 然后找几个不存在的网站测试XD<br>
+
+## (Optional)服务器端配置BBR算法
+服务器端加入谷歌BBR优化算法可以实现TCP加速，可流畅观看油管的4K资源，关于BBR算法，请转到https://github.com/google/bbr 并且参考相关文献<br>
+
+在之前的命令行界面输入以下命令即可<br>
+```
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
+接下来去油管试试或者Ping一下延迟或找个下载工具自行测试<br>
+
+## (Optional)Ubuntu配置本地Shadowsocks<br>
+未完待续
+
+## 声明
+以上内容绝大部分均参考于大神“秋水逸冰”，如细节有不明白处请转至“秋水逸冰”提供的教程https://teddysun.com/
+侵删
