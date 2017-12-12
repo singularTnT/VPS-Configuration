@@ -32,7 +32,19 @@
 请自行去官网查看或者百度
 
 ## vps配置
-以下以Vultr在Windows平台配置过程为例：
+以Vultr在Windows平台配置为例：
 
-1. 下载安装putty客户端：http://www.putty.org/
-2.
+1. 下载安装putty客户端：<br>
+http://www.putty.org/
+2. 部署新的服务器<br>
+	<1>加号图标部署新的服务器<br>
+![deploy new server](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/deploy_new_server.png)
+	<2>server location选最近的<br>
+![server location](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_location.png)
+	<3>server type随意，centos较为稳定
+![server type](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_size.png)
+	<4>server size按自己需求和土豪程度选，一般5刀的够4个人左右用了
+![server size](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_size.png)
+	<5>余下的不折腾的按默认就行，点击右下角蓝色框"Deploy Now"
+![deploy now](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/vultr_server_deploynow.png)
+
