@@ -59,7 +59,7 @@ http://www.putty.org/
 <4> 在控制台界面输入<br>
 ```
 login as: 输入"root"
-password: 输入之前部署服务器获得的Pasword(在putty命令行节目中，右键一下表示粘贴)，回车
+password: 输入之前部署服务器获得的Pasword(在putty命令行界面中，右键一下表示粘贴)，回车
 ```
 ![putty_login](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/putty_login.png)<br>
 
