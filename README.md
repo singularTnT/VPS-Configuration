@@ -18,7 +18,7 @@
 | :------------ |:---------------:|
 |Vultr  | https://www.vultr.com/ |
 |Linode  | https://www.linode.com/ |
-|BandwagonHost  | EN: http://www.bandwagonhost.com/ <br>CN: http://banwagong.cn/ |
+|BandwagonHost  | US: http://www.bandwagonhost.com/ <br>CN: http://banwagong.cn/ |
 |DigitalOcean  | https://www.digitalocean.com/ |
 |SugarHosts  | https://www.sugarhosts.com/zh-cn/ |
 |...... | ...... |
