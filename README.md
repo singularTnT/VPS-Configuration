@@ -1,5 +1,7 @@
 ## 声明
-以下内容绝大部分均整理于大神“秋水逸冰”的配置，如细节有不明白处请转至“秋水逸冰”提供的教程https://teddysun.com/ <br>
+以下内容绝大部分均整理于大神“秋水逸冰”的配置，如细节有不明白处请转至“秋水逸冰”提供的教程
+> https://teddysun.com/ <br>
+
 (仅用于学习和交流 & 侵删) <br>
 
 # Set up a VPS with google BBR
@@ -36,10 +38,10 @@
 
 ## vps配置
 以Vultr在Windows平台配置为例： <br>
-https://www.vultr.com/
+> https://www.vultr.com/
 
 #### 1. 下载安装putty客户端：<br>
-http://www.putty.org/
+> http://www.putty.org/
 
 #### 2. 部署新的服务器<br>
 <1> 点击加号部署新的服务器<br>
@@ -91,7 +93,7 @@ chmod +x shadowsocks-go.sh
 ![ss](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/ss.png)<br>
 <3> 然后找几个不存在的网站测试XD<br>
 
-## (Optional)服务器端配置BBR算法
+## (Optional)服务器端配置BBR算法 <br>
 服务器端加入谷歌BBR优化算法可以实现TCP加速，可流畅观看油管的4K资源，关于BBR算法，请转到https://github.com/google/bbr 并且参考相关文献<br>
 
 在之前的命令行界面输入以下命令即可<br>
@@ -103,7 +105,9 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ## (Optional)Ubuntu配置本地Shadowsocks<br>
 #### 下载安装shadowsocks-qt5 https://shadowsocks.org/en/index.html<br>
 <1> 源码安装 <br>
-参考 https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation <br>
+参考 
+> https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation <br>
+
 ```
 sudo apt-get update && sudo apt-get upgrade
 pip install shadowsocks
@@ -116,9 +120,19 @@ sudo yum update
 sudo yum install shadowsocks-qt5
 ```
 <2> 本地安装 <br>
-在网站 
+**shadowsocks project:** <br>
 > https://github.com/shadowsocks/shadowsocks-qt5/releases <br>
-下载后缀为.AppImage的文件
 
+对于 64-bit PC Linux系统下载后缀为“.AppImage”的文件，并且在安装文件夹处执行
+```
+chmod a+x Shadowsocks-Qt5-x86_64.AppImage
+./Shadowsocks-Qt5-x86_64.AppImage
+```
 
+#### 配置代理 <br>
+<1> 配置全局代理 <br>
+参考博客 <br>
+> https://www.litcc.com/2016/12/29/Ubuntu16-shadowsocks-pac/
+
+<2> 配置chrome代理 <br>
 
