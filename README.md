@@ -1,3 +1,7 @@
+## 声明
+以下内容绝大部分均整理于大神“秋水逸冰”的配置，如细节有不明白处请转至“秋水逸冰”提供的教程https://teddysun.com/
+侵删
+
 # Set up a VPS with google BBR
 主要介绍搭建虚拟专用服务器(VPS)，以及加入谷歌BBR优化算法实现TCP加速
 
@@ -99,6 +103,4 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ## (Optional)Ubuntu配置本地Shadowsocks<br>
 未完待续
 
-## 声明
-以上内容绝大部分均参考于大神“秋水逸冰”，如细节有不明白处请转至“秋水逸冰”提供的教程https://teddysun.com/
-侵删
+
