@@ -101,21 +101,24 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 接下来去油管试试或者Ping一下延迟或找个下载工具自行测试<br>
 
 ## (Optional)Ubuntu配置本地Shadowsocks<br>
-<1> 下载安装shadowsocks-qt5 <br>
-方式一 <br>
-https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation <br>
+#### 下载安装shadowsocks-qt5 https://shadowsocks.org/en/index.html<br>
+<1> 源码安装 <br>
+参考 https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation <br>
 ```
 sudo apt-get update && sudo apt-get upgrade
 pip install shadowsocks
 apt-get install shadowsocks-libev
 cpan Net::Shadowsocks
 ```
-如果安装过程出现 <br>
 或者 <br>
 ```
 sudo yum update
 sudo yum install shadowsocks-qt5
 ```
+<2> 本地安装 <br>
+在网站 
+> https://github.com/shadowsocks/shadowsocks-qt5/releases <br>
+下载后缀为.AppImage的文件
 
 
 
