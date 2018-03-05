@@ -35,7 +35,8 @@
 请自行去官网查看或者百度
 
 ## vps配置
-以Vultr在Windows平台配置为例：
+以Vultr在Windows平台配置为例： <br>
+https://www.vultr.com/
 
 #### 1. 下载安装putty客户端：<br>
 http://www.putty.org/
@@ -84,7 +85,7 @@ chmod +x shadowsocks-go.sh
 <5> 等待脚本自动配置，提示配置完成，并且出现以下ss信息界面，记住以下红色框信息<br>
 ![putty_4](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/putty_c_4.png)<br>
 
-#### 5. 配置本地Shadowsocks<br>
+#### 5. Windows配置本地Shadowsocks<br>
 <1> 下载ss客户端 https://github.com/shadowsocks/shadowsocks-windows/releases<br>
 <2> 打开ss客户端，如下图输入之前红色框中对应的信息，点击确认，并且在windows界面右下角图标右键，勾选“启动系统代理”选项<br>
 ![ss](https://github.com/singularTnT/VPS-Configuration/blob/master/pic/ss.png)<br>
@@ -100,6 +101,21 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 接下来去油管试试或者Ping一下延迟或找个下载工具自行测试<br>
 
 ## (Optional)Ubuntu配置本地Shadowsocks<br>
-未完待续
+<1> 下载安装shadowsocks-qt5 <br>
+方式一 <br>
+https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation <br>
+```
+sudo apt-get update && sudo apt-get upgrade
+pip install shadowsocks
+apt-get install shadowsocks-libev
+cpan Net::Shadowsocks
+```
+如果安装过程出现 <br>
+或者 <br>
+```
+sudo yum update
+sudo yum install shadowsocks-qt5
+```
+
 
 
