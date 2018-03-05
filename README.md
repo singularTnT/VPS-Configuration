@@ -136,3 +136,4 @@ chmod a+x Shadowsocks-Qt5-x86_64.AppImage
 
 <2> 配置chrome代理 <br>
 
+未完待续...
